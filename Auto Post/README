@@ -1,0 +1,15 @@
+YouTube Setup
+
+Enable YouTube Data API v3 in Google Cloud Console
+
+Create OAuth 2.0 credentials
+
+Download client_secret.json and save it in config/
+
+Twitter Setup
+
+Create a developer account on Twitter
+
+Create an app and generate API keys and access tokens
+
+Replace you client_secret in the client_secret.json file 
