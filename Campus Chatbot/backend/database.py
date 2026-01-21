@@ -4,8 +4,8 @@ def connect_db():
     return mysql.connector.connect(
         host="localhost",
         user="root",
-        password="mydb_test",
-        database="final_project"
+        password=" ",
+        database=" "
     )
 
 def get_answer(query):
@@ -15,3 +15,4 @@ def get_answer(query):
     result = cursor.fetchone()
     conn.close()
     return result[0] if result else None
+
